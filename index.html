@@ -10,15 +10,15 @@
     <title>Frontend Mentor | Four card feature section</title>
 </head>
 <body class="px-7 pt-14 pb-12">
-    <h1 class="text-2xl font-poppins text-center font-extralight text-[hsl(212,6%,44%)] mb-5">
+    <h1 class="flex flex-col sm:gap-1 text-2xl sm:text-3xl font-poppins text-center font-extralight text-[hsl(212,6%,44%)] mb-5">
         Reliable, efficient delivery
         <strong class="font-semibold text-[hsl(234,12%,34%)]">Powered by Technology</strong>
     </h1>
 
-    <p class="font-poppins text-center text-[hsl(234,12%,34%)] text-[15px] mb-12">Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
+    <p class="sm:w-[500px] sm:m-auto font-poppins text-center text-[hsl(234,12%,34%)] text-[15px] mb-12 sm:mb-16">Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
 
-    <div class="flex flex-col gap-8 text-xl font-semibold font-poppins text-[hsl(234,12%,34%)]">
-        <section class="shadow-xl rounded-md border-t-4 border-t-[hsl(180,62%,55%)] px-7 pt-6 pb-11">
+    <div class="flex flex-col sm:flex-row sm:justify-center gap-8 text-xl font-semibold font-poppins text-[hsl(234,12%,34%)]">
+        <section class="sm:w-[360px] sm:min-w-[180px] sm:self-center shadow-xl rounded-md border-t-4 border-t-[hsl(180,62%,55%)] px-7 pt-6 pb-11">
             <h2 class="mb-1">Supervisor</h2>
     
             <p class="text-[14px] font-normal text-[hsl(212,6%,44%)] mb-8">Monitors activity to identify project roadblocks</p>
@@ -26,23 +26,25 @@
             <img src="images/icon-supervisor.svg" alt="Magnifying glass icon" class="ml-auto">
         </section>
     
-        <section class="shadow-2xl rounded-md border-t-4 border-t-[hsl(0,78%,62%)] px-7 pt-6 pb-11">
-            <h2 class="mb-1">Team Builder</h2>
+        <div class="sm:w-[360px] sm:min-w-[180px] flex flex-col gap-8">
+            <section class="shadow-2xl rounded-md border-t-4 border-t-[hsl(0,78%,62%)] px-7 pt-6 pb-11">
+                <h2 class="mb-1">Team Builder</h2>
+        
+                <p class="text-[14px] font-normal text-[hsl(212,6%,44%)] mb-8">Scans our talent network to create the optimal team for your project</p>
+        
+                <img src="images/icon-team-builder.svg" alt="Team builder icon" class="ml-auto">
+            </section>
+        
+            <section class="shadow-2xl rounded-md border-t-4 border-t-[hsl(34,97%,64%)] px-7 pt-6 pb-11">
+                <h2 class="mb-1">Karma</h2>
+        
+                <p class="text-[14px] font-normal text-[hsl(212,6%,44%)] mb-8">Regularly evaluates our talent to ensure quality</p>
+        
+                <img src="images/icon-karma.svg" alt="Light bulb icon" class="ml-auto">
+            </section>
+        </div>
     
-            <p class="text-[14px] font-normal text-[hsl(212,6%,44%)] mb-8">Scans our talent network to create the optimal team for your project</p>
-    
-            <img src="images/icon-team-builder.svg" alt="Team builder icon" class="ml-auto">
-        </section>
-    
-        <section class="shadow-2xl rounded-md border-t-4 border-t-[hsl(34,97%,64%)] px-7 pt-6 pb-11">
-            <h2 class="mb-1">Karma</h2>
-    
-            <p class="text-[14px] font-normal text-[hsl(212,6%,44%)] mb-8">Regularly evaluates our talent to ensure quality</p>
-    
-            <img src="images/icon-karma.svg" alt="Light bulb icon" class="ml-auto">
-        </section>
-    
-        <section class="shadow-2xl rounded-md border-t-4 border-t-[hsl(212,86%,64%)] px-7 pt-6 pb-11">
+        <section class="sm:w-[360px] sm:min-w-[180px] sm:self-center shadow-2xl rounded-md border-t-4 border-t-[hsl(212,86%,64%)] px-7 pt-6 pb-11">
             <h2 class="mb-1">Calculator</h2>
     
             <p class="text-[14px] font-normal text-[hsl(212,6%,44%)] mb-8">Uses data from past projects to provide better delivery estimates</p>
